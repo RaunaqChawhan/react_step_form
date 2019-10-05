@@ -1,7 +1,8 @@
 import React, { Component} from 'react';
 import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
-import Confirm from './Confirm'
+import Confirm from './Confirm';
+import Success from './Success';
 
 class UserForm extends Component {
 
@@ -68,7 +69,7 @@ class UserForm extends Component {
                     />
                 )
             case 4:
-                return <h1>Success</h1>
+                return <Success />
             default:
         }
     }
